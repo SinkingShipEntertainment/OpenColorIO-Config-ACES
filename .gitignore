@@ -6,7 +6,7 @@
 .dmypy.json
 .idea
 __pycache__
-build
+#build
 dist
 docs/_build
 docs/generated
