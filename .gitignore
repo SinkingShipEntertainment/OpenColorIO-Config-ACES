@@ -11,3 +11,7 @@ dist
 docs/_build
 docs/generated
 poetry.lock
+
+# SSE
+_rez_build
+.vacode
