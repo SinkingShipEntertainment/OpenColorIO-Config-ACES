@@ -1,6 +1,6 @@
 name = "ocio_configs_aces"
 
-version = "1.0.0.sse.1.0.1"
+version = "1.0.0.sse.1.0.2"
 
 
 # --------------------------------------------
@@ -59,4 +59,14 @@ uuid = "repository.OpenColorIO-Configs-ACES"
 def commands():
 
     env.REZ_OCIO_CONFIGS_ACES_ROOT = "{root}"
-    env.OCIO = "{root}/build/config/aces/cg/cg-config-v1.0.0_aces-v1.3_ocio-v2.1.ocio"
+
+    # CG
+    #env.OCIO = "{root}/build/config/aces/cg/cg-config-v1.0.0_aces-v1.3_ocio-v2.0.ocio"
+    #env.OCIO = "{root}/build/config/aces/cg/cg-config-v1.0.0_aces-v1.3_ocio-v2.1.ocio"
+
+    # Studio
+    #env.OCIO = "{root}/build/config/aces/studio/studio-config-v1.0.0_aces-v1.3_ocio-v2.0.ocio"
+    #env.OCIO = "{root}/build/config/aces/studio/studio-config-v1.0.0_aces-v1.3_ocio-v2.1.ocio"
+
+    # SSE
+    env.OCIO = "{root}/build/config/aces/sse/ss_config.ocio"
